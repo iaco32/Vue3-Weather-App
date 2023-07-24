@@ -4,7 +4,7 @@ import { ref } from "vue";
 import axios from "axios";
 import Swal from 'sweetalert2'
 
-const API_BASE_URL = "http://api.openweathermap.org/data/2.5";
+const API_BASE_URL = "https://api.openweathermap.org/data/2.5";
 const API_ID = import.meta.env.VITE_VUE_OPENWEATHERMAP_KEY;
 
 export const useOpenWeatherMapStore = defineStore("OpenWeatherMapStore", () => {
